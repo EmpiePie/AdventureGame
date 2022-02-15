@@ -17,54 +17,32 @@ public class Equipment {
         this.item = item;
     }
 
-    public boolean isWeapon() {
-        weapon = false;
-        return weapon;
+    public Equipment() {
     }
 
-    public void setWeapon(boolean weapon) {
-        this.weapon = weapon;
+    public boolean isWeapon() {
+        return false;
     }
 
     public boolean isBody() {
-        body = false;
-        return body;
-    }
-
-    public void setBody(boolean body) {
-        this.body = body;
+        return false;
     }
 
     public boolean isFeet() {
-        feet = false;
-        return feet;
-    }
-
-    public void setFeet(boolean feet) {
-        this.feet = feet;
+        return false;
     }
 
     public boolean isHead() {
-        return head;
-    }
-
-    public void setHead(boolean head) {
-        this.head = head;
+        return false;
     }
 
     public boolean isSpell() {
-        return spell;
+        return false;
     }
 
-    public void setSpell(boolean spell) {
-        this.spell = spell;
-    }
 
     public boolean isItem() {
-        return item;
+        return false;
     }
 
-    public void setItem(boolean item) {
-        this.item = item;
-    }
 }
