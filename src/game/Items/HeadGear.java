@@ -13,12 +13,12 @@ public class HeadGear {
         this.robeHead = robeHead;
     }
 
-    public String getLeatherHead(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Leather Cap";
-        Vit = 10;
-        Str = 10;
-        Dex = 20;
-        Int = 10;
+    public String getLeatherHead(String hName, int hVit, int hStr, int hDex, int hInt) {
+        hName = "Leather Cap";
+        hVit = 10;
+        hStr = 10;
+        hDex = 20;
+        hInt = 10;
         return leatherHead;
     }
 
@@ -26,12 +26,12 @@ public class HeadGear {
         this.leatherHead = leatherHead;
     }
 
-    public String getIronHead(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Iron Helm";
-        Vit = 10;
-        Str = 20;
-        Dex = 10;
-        Int = 10;
+    public String getIronHead(String hName, int hVit, int hStr, int hDex, int hInt) {
+        hName = "Iron Helm";
+        hVit = 10;
+        hStr = 20;
+        hDex = 10;
+        hInt = 10;
         return ironHead;
     }
 
@@ -39,12 +39,12 @@ public class HeadGear {
         this.ironHead = ironHead;
     }
 
-    public String getSteelHead(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Steel Full Helm";
-        Vit = 20;
-        Str = 10;
-        Dex = 10;
-        Int = 10;
+    public String getSteelHead(String hName, int hVit, int hStr, int hDex, int hInt) {
+        hName = "Steel Full Helm";
+        hVit = 20;
+        hStr = 10;
+        hDex = 10;
+        hInt = 10;
         return steelHead;
     }
 
@@ -52,12 +52,12 @@ public class HeadGear {
         this.steelHead = steelHead;
     }
 
-    public String getRobeHead(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Circlet";
-        Vit = 10;
-        Str = 10;
-        Dex = 10;
-        Int = 20;
+    public String getRobeHead(String hName, int hVit, int hStr, int hDex, int hInt) {
+        hName = "Circlet";
+        hVit = 10;
+        hStr = 10;
+        hDex = 10;
+        hInt = 20;
         return robeHead;
     }
 

@@ -17,12 +17,12 @@ public class Weapons {
         this.knife = knife;
     }
 
-    public String getSword(String name, int dmg, int Str, int Dex, int Int) {
-        name = "Long Sword";
-        dmg = 50;
-        Str = 30;
-        Dex = 20;
-        Int = 0;
+    public String getSword(String wName, int wDmg, int wStr, int wDex, int wInt) {
+        wName = "Long Sword";
+        wDmg = 50;
+        wStr = 30;
+        wDex = 20;
+        wInt = 0;
         return sword;
     }
 
@@ -30,12 +30,12 @@ public class Weapons {
         this.sword = sword;
     }
 
-    public String getAxe(String name, int dmg, int Str, int Dex, int Int) {
-        name = "Great Axe";
-        dmg = 80;
-        Str = 20;
-        Dex = 0;
-        Int = 0;
+    public String getAxe(String wName, int wDmg, int wStr, int wDex, int wInt) {
+        wName = "Great Axe";
+        wDmg = 80;
+        wStr = 20;
+        wDex = 0;
+        wInt = 0;
         return axe;
     }
 
@@ -43,12 +43,12 @@ public class Weapons {
         this.axe = axe;
     }
 
-    public String getSpear(String name, int dmg, int Str, int Dex, int Int) {
-        name = "Spear";
-        dmg = 40;
-        Str = 10;
-        Dex = 40;
-        Int = 10;
+    public String getSpear(String wName, int wDmg, int wStr, int wDex, int wInt) {
+        wName = "Spear";
+        wDmg = 40;
+        wStr = 10;
+        wDex = 40;
+        wInt = 10;
         return spear;
     }
 
@@ -56,12 +56,12 @@ public class Weapons {
         this.spear = spear;
     }
 
-    public String getDaggers(String name, int dmg, int Str, int Dex, int Int) {
-        name = "Set of Daggers";
-        dmg = 50;
-        Str = 0;
-        Dex = 40;
-        Int = 10;
+    public String getDaggers(String wName, int wDmg, int wStr, int wDex, int wInt) {
+        wName = "Set of Daggers";
+        wDmg = 50;
+        wStr = 0;
+        wDex = 40;
+        wInt = 10;
         return daggers;
     }
 
@@ -69,12 +69,12 @@ public class Weapons {
         this.daggers = daggers;
     }
 
-    public String getStaff(String name, int dmg, int Str, int Dex, int Int) {
-        name = "Magic Staff";
-        dmg = 20;
-        Str = 0;
-        Dex = 20;
-        Int = 60;
+    public String getStaff(String wName, int wDmg, int wStr, int wDex, int wInt) {
+        wName = "Magic Staff";
+        wDmg = 20;
+        wStr = 0;
+        wDex = 20;
+        wInt = 60;
         return staff;
     }
 
@@ -82,12 +82,12 @@ public class Weapons {
         this.staff = staff;
     }
 
-    public String getKnife(String name, int dmg, int Str, int Dex, int Int) {
-        name = "Hunting Knife";
-        dmg = 20;
-        Str = 0;
-        Dex = 0;
-        Int = 0;
+    public String getKnife(String wName, int wDmg, int wStr, int wDex, int wInt) {
+        wName = "Hunting Knife";
+        wDmg = 20;
+        wStr = 0;
+        wDex = 0;
+        wInt = 0;
         return knife;
     }
 

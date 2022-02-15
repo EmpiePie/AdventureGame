@@ -13,12 +13,12 @@ public class BodyGear {
         this.robeBody = robeBody;
     }
 
-    public String getLeatherBody(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Leather Tunic";
-        Vit = 30;
-        Str = 20;
-        Dex = 70;
-        Int = 30;
+    public String getLeatherBody(String bName, int bVit, int bStr, int bDex, int bInt) {
+        bName = "Leather Tunic";
+        bVit = 30;
+        bStr = 20;
+        bDex = 70;
+        bInt = 30;
         return leatherBody;
     }
 
@@ -26,12 +26,12 @@ public class BodyGear {
         this.leatherBody = leatherBody;
     }
 
-    public String getIronBody(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Iron Chain Mail";
-        Vit = 40;
-        Str = 60;
-        Dex = 20;
-        Int = 30;
+    public String getIronBody(String bName, int bVit, int bStr, int bDex, int bInt) {
+        bName = "Iron Chain Mail";
+        bVit = 40;
+        bStr = 60;
+        bDex = 20;
+        bInt = 30;
         return ironBody;
     }
 
@@ -39,12 +39,12 @@ public class BodyGear {
         this.ironBody = ironBody;
     }
 
-    public String getSteelBody(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Steel Breast Plate";
-        Vit = 70;
-        Str = 50;
-        Dex = 10;
-        Int = 20;
+    public String getSteelBody(String bName, int bVit, int bStr, int bDex, int bInt) {
+        bName = "Steel Breast Plate";
+        bVit = 70;
+        bStr = 50;
+        bDex = 10;
+        bInt = 20;
         return steelBody;
     }
 
@@ -52,12 +52,12 @@ public class BodyGear {
         this.steelBody = steelBody;
     }
 
-    public String getRobeBody(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Silk Robe";
-        Vit = 30;
-        Str = 20;
-        Dex = 30;
-        Int = 70;
+    public String getRobeBody(String bName, int bVit, int bStr, int bDex, int bInt) {
+        bName = "Silk Robe";
+        bVit = 30;
+        bStr = 20;
+        bDex = 30;
+        bInt = 70;
         return robeBody;
     }
 

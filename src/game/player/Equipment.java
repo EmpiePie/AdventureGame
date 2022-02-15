@@ -27,6 +27,7 @@ public class Equipment {
     }
 
     public boolean isBody() {
+        body = false;
         return body;
     }
 
@@ -35,6 +36,7 @@ public class Equipment {
     }
 
     public boolean isFeet() {
+        feet = false;
         return feet;
     }
 

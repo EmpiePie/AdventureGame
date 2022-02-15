@@ -13,12 +13,12 @@ public class FootGear {
         this.robeFoot = robeFoot;
     }
 
-    public String getLeatherFoot(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Leather Boots";
-        Vit = 20;
-        Str = 10;
-        Dex = 50;
-        Int = 20;
+    public String getLeatherFoot(String fName, int fVit, int fStr, int fDex, int fInt) {
+        fName = "Leather Boots";
+        fVit = 20;
+        fStr = 10;
+        fDex = 50;
+        fInt = 20;
         return leatherFoot;
     }
 
@@ -26,12 +26,12 @@ public class FootGear {
         this.leatherFoot = leatherFoot;
     }
 
-    public String getIronFoot(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Iron Boots";
-        Vit = 20;
-        Str = 50;
-        Dex = 10;
-        Int = 20;
+    public String getIronFoot(String fName, int fVit, int fStr, int fDex, int fInt) {
+        fName = "Iron Boots";
+        fVit = 20;
+        fStr = 50;
+        fDex = 10;
+        fInt = 20;
         return ironFoot;
     }
 
@@ -39,12 +39,12 @@ public class FootGear {
         this.ironFoot = ironFoot;
     }
 
-    public String getSteelFoot(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Steel Boots";
-        Vit = 50;
-        Str = 30;
-        Dex = 10;
-        Int = 10;
+    public String getSteelFoot(String fName, int fVit, int fStr, int fDex, int fInt) {
+        fName = "Steel Boots";
+        fVit = 50;
+        fStr = 30;
+        fDex = 10;
+        fInt = 10;
         return steelFoot;
     }
 
@@ -52,12 +52,12 @@ public class FootGear {
         this.steelFoot = steelFoot;
     }
 
-    public String getRobeFoot(String name, int Vit, int Str, int Dex, int Int) {
-        name = "Sandals";
-        Vit = 20;
-        Str = 10;
-        Dex = 10;
-        Int = 60;
+    public String getRobeFoot(String fName, int fVit, int fStr, int fDex, int fInt) {
+        fName = "Sandals";
+        fVit = 20;
+        fStr = 10;
+        fDex = 10;
+        fInt = 60;
         return robeFoot;
     }
 
