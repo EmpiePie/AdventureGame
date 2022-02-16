@@ -1,52 +1,36 @@
 package game.Items;
 
 public class Spells {
-    String fireball;
-    String iceShard;
-    String silence;
-    String lightGlobe;
+    int spDmg;
+    boolean isChilled;
+    boolean isSilent;
+    boolean isLight;
 
-    public Spells(String fireball, String iceShard, String silence, String lightGlobe) {
-        this.fireball = fireball;
-        this.iceShard = iceShard;
-        this.silence = silence;
-        this.lightGlobe = lightGlobe;
+    public Spells() {
     }
 
-    public String getFireball(int spDmg) {
+    public Spells getFireball() {
         spDmg = 50;
-        return fireball;
+        return this;
     }
 
-    public void setFireball(String fireball) {
-        this.fireball = fireball;
-    }
 
-    public String getIceShard(int spDmg, boolean isChilled) {
+    public Spells getIceShard() {
         spDmg = 20;
         isChilled = true;
-        return iceShard;
+        return this;
     }
 
-    public void setIceShard(String iceShard) {
-        this.iceShard = iceShard;
-    }
 
-    public String getSilence(boolean isSilent) {
+    public Spells getSilence() {
         isSilent = true;
-        return silence;
+        return this;
     }
 
-    public void setSilence(String silence) {
-        this.silence = silence;
-    }
 
-    public String getLightGlobe(boolean isLight) {
+    public Spells getLightGlobe() {
         isLight = true;
-        return lightGlobe;
+        return this;
     }
 
-    public void setLightGlobe(String lightGlobe) {
-        this.lightGlobe = lightGlobe;
-    }
 }

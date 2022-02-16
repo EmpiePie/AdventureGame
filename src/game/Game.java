@@ -48,24 +48,22 @@ public class Game {
     static void newGame(){
 
 
-            Player player = new Player();
-            Equipment playerEq = new Equipment();
-            Inventory playerInv = new Inventory();
+        Player player = new Player();
+        Equipment playerEq = new Equipment();
+        Inventory playerInv = new Inventory();
+
+        int currentStr = player.getPlayerStr();
+        int currentInt = player.getPlayerInt();
+        int currentDex = player.getPlayerDex();
+        int currentVit = player.getPlayerVit();
+        int currentMaxhealth = player.getPlayerHealth() + currentVit  * 2;
+        int currentHealth = currentMaxhealth;
+        int currentDmg = player.getPlayerDamage() + currentStr / 2;
+        int currentSpDmg = player.getPlayerSpellDmg();
 
             getRoom();
 
 
-            int currentStr = player.getPlayerStr();
-            int currentInt = player.getPlayerInt();
-            int currentDex = player.getPlayerDex();
-            int currentVit = player.getPlayerVit();
-            int currentMaxhealth = player.getPlayerHealth() + currentVit  * 2;
-            int currentHealth = currentMaxhealth;
-            int currentDmg = player.getPlayerDamage();
-            int currentSpDmg = player.getPlayerSpellDmg();
-
-            System.out.println(currentMaxhealth);
-            
 
     }
 

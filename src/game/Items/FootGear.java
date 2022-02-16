@@ -1,67 +1,52 @@
 package game.Items;
 
 public class FootGear {
-    String leatherFoot;
-    String ironFoot;
-    String steelFoot;
-    String robeFoot;
+    String fName;
+    int fVit;
+    int fStr;
+    int fDex;
+    int fInt;
 
-    public FootGear(String leatherFoot, String ironFoot, String steelFoot, String robeFoot) {
-        this.leatherFoot = leatherFoot;
-        this.ironFoot = ironFoot;
-        this.steelFoot = steelFoot;
-        this.robeFoot = robeFoot;
+    public FootGear() {
     }
 
-    public String getLeatherFoot(String fName, int fVit, int fStr, int fDex, int fInt) {
+    public FootGear getLeatherFoot() {
         fName = "Leather Boots";
         fVit = 20;
         fStr = 10;
         fDex = 50;
         fInt = 20;
-        return leatherFoot;
+        return this;
     }
 
-    public void setLeatherFoot(String leatherFoot) {
-        this.leatherFoot = leatherFoot;
-    }
 
-    public String getIronFoot(String fName, int fVit, int fStr, int fDex, int fInt) {
+    public FootGear getIronFoot() {
         fName = "Iron Boots";
         fVit = 20;
         fStr = 50;
         fDex = 10;
         fInt = 20;
-        return ironFoot;
+        return this;
     }
 
-    public void setIronFoot(String ironFoot) {
-        this.ironFoot = ironFoot;
-    }
 
-    public String getSteelFoot(String fName, int fVit, int fStr, int fDex, int fInt) {
+    public FootGear getSteelFoot() {
         fName = "Steel Boots";
         fVit = 50;
         fStr = 30;
         fDex = 10;
         fInt = 10;
-        return steelFoot;
+        return this;
     }
 
-    public void setSteelFoot(String steelFoot) {
-        this.steelFoot = steelFoot;
-    }
 
-    public String getRobeFoot(String fName, int fVit, int fStr, int fDex, int fInt) {
+    public FootGear getRobeFoot() {
         fName = "Sandals";
         fVit = 20;
         fStr = 10;
         fDex = 10;
         fInt = 60;
-        return robeFoot;
+        return this;
     }
 
-    public void setRobeFoot(String robeFoot) {
-        this.robeFoot = robeFoot;
-    }
 }

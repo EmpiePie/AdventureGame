@@ -1,67 +1,52 @@
 package game.Items;
 
 public class BodyGear {
-    String leatherBody;
-    String ironBody;
-    String steelBody;
-    String robeBody;
+    String bName;
+    int bVit;
+    int bStr;
+    int bDex;
+    int bInt;
 
-    public BodyGear(String leatherBody, String ironBody, String steelBody, String robeBody) {
-        this.leatherBody = leatherBody;
-        this.ironBody = ironBody;
-        this.steelBody = steelBody;
-        this.robeBody = robeBody;
+    public BodyGear() {
     }
 
-    public String getLeatherBody(String bName, int bVit, int bStr, int bDex, int bInt) {
+    public BodyGear getLeatherBody() {
         bName = "Leather Tunic";
         bVit = 30;
         bStr = 20;
         bDex = 70;
         bInt = 30;
-        return leatherBody;
+        return this;
     }
 
-    public void setLeatherBody(String leatherBody) {
-        this.leatherBody = leatherBody;
-    }
 
-    public String getIronBody(String bName, int bVit, int bStr, int bDex, int bInt) {
+    public BodyGear getIronBody() {
         bName = "Iron Chain Mail";
         bVit = 40;
         bStr = 60;
         bDex = 20;
         bInt = 30;
-        return ironBody;
+        return this;
     }
 
-    public void setIronBody(String ironBody) {
-        this.ironBody = ironBody;
-    }
 
-    public String getSteelBody(String bName, int bVit, int bStr, int bDex, int bInt) {
+    public BodyGear getSteelBody() {
         bName = "Steel Breast Plate";
         bVit = 70;
         bStr = 50;
         bDex = 10;
         bInt = 20;
-        return steelBody;
+        return this;
     }
 
-    public void setSteelBody(String steelBody) {
-        this.steelBody = steelBody;
-    }
 
-    public String getRobeBody(String bName, int bVit, int bStr, int bDex, int bInt) {
+    public BodyGear getRobeBody() {
         bName = "Silk Robe";
         bVit = 30;
         bStr = 20;
         bDex = 30;
         bInt = 70;
-        return robeBody;
+        return this;
     }
 
-    public void setRobeBody(String robeBody) {
-        this.robeBody = robeBody;
-    }
 }
